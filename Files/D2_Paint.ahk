@@ -295,7 +295,3 @@ CreateSolidBitmap(color, w, h, filename)
     Gdip_DisposeImage(pBitmap)
     return filePath
 }
-
-F4::
-Send, {LButton Up}
-reload

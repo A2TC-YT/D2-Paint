@@ -145,16 +145,16 @@ StartShooting()
     TotalRelY := -9999
     Send, {LButton Down}
 
-    index := 900
+    index := 1
     Loop, % GridHeight
     {
-        Y := 30 - A_Index - 1 ; reverse Y index
+        Y := A_Index - 1 ; reverse Y index
         
         Loop, % GridWidth
         {
-            X := 30 - A_Index - 1
+            X :=  A_Index - 1
             Pixel := SubStr(Image, index, 1) ; Get the character at the current position in text file
-            index -= 1
+            index += 1
 
             if (Pixel == 1)
             {

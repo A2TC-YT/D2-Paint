@@ -29,6 +29,7 @@ Make images on a wall with a trace rifle in Destiny 2.
 
 ## Things to Note
 
+- **In-Game Obstructions**: if you are in an area with a lot of things going on (ads spawning, shooting, public event happening) it may not work as well.
 - **Starting Location**: it will start shooting at the top-most left-most pixel in the drawing.
 - **In-Game Sensitivity**: This will work best on 6 in game sens, but you should be able to make it work on any sens. You can try adjusting the image width and height on the main GUI as well. 
 - **In-Game Graphics Settings**: Higher graphics settings allow for the images to show up better. 
